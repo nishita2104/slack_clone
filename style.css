@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: Helvetica,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+@media screen and (min-width: 48rem){
+    .content{
+        padding: 0 10vw;
+        padding-top: 0px;
+        padding-right: 10vw;
+        padding-bottom: 0px;
+        padding-left: 10vw;
+    }
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 115px;
+}
+.navbar{
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.list li img{
+    width: 115px;
+}
+.right_nav{
+    width: 50%;
+    text-align: right;
+}
+.talk_to_sales{
+    color: #611f69;
+    padding: 10px;
+    border: 2px solid #611f69;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.launch_slack{
+    color: white;
+    padding: 10px;
+    border: 2px solid #611f69;
+    border-radius: 5px;
+    background-color: #611f69;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.header{
+    display: flex;
+    
+}
+
+.interface{
+    float: right;
+}
+
+.get_started{
+    color: white;
+    padding: 10px;
+    border: 2px solid #611f69;
+    border-radius: 5px;
+    background-color: #611f69;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 28px;
+}
+.see_all_features{
+    color: #611f69;
+    padding: 10px;
+    border: 2px solid #611f69;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 28px;
+}
+h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.item img{
+    max-width: 170px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    height: 35px;
+}
+
+.work_easily{
+    background-color: #f4ede4;
+    margin-top: 70px;
+}
+.headingandimg{
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 3.5rem; 
+}
+
+.features{
+    padding-top: 4rem;
+}
+
+@media screen and (min-width: 48rem){
+.headingandimg {
+    padding: 0 4vw;
+}}
+
+.features h2{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.1875;
+    letter-spacing: -.3px;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.features p{
+    margin-bottom: 1rem;
+    font-weight: 400;
+    line-height: 1.4444;
+    letter-spacing: normal;
+    font-size: 1.1rem;
+    padding-right: 5vw;
+}
+.jigsaw{
+   margin-top: -63px;
+   position: relative;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    height: 45vh;
+    flex-wrap: wrap;
+    
+}
+.one,.two,.four{
+    width: 250px;
+    font-size: 1.1rem;
+    height: 200px;
+    line-height: 1.625rem;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition: transform 420ms cubic-bezier(.165,.84,.44,1);
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+    color: #1d1c1d;
+    
+}
+.mess,.clips{
+    width: 250px;
+    font-size: 1.1rem;
+    height: 80px;
+    line-height: 1.625rem;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition: transform 420ms cubic-bezier(.165,.84,.44,1);
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+    color: #1d1c1d;
+
+}
+.mess{
+    margin-bottom: 10px;
+}
+/*.grid{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(2,117px);
+    margin-left: -1rem;
+    gap: 50px;
+}*/
+/*.one,.two,.three,.four,.five{
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+    color: #1d1c1d;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem;
+    height: 300px;
+    line-height: 1.625rem;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition: transform 420ms cubic-bezier(.165,.84,.44,1);
+}*/
+
+.cycle{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+}
+.cycle_image{
+    max-width: 50%;
+    /*padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;*/
+    margin: 40px;
+    width: 610px;
+    height: 325px;
+}
+@media screen and (min-width: 64rem){
+    .write_up{
+        font-size: 1.75rem;
+    }
+}
+.quote{
+    margin: 40px;
+    padding-top: 2rem;
+}
+.quote p{
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    line-height: 1.3571;
+    letter-spacing: -.3px;
+    
+    margin-bottom: 1.5rem;
+}
+.write_up{
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.quote img{
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 1rem;   
+}
+section{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 80rem;
+    margin:0 auto;
+    padding: 0 1.5rem;
+    
+}
+#question1,#question2,#question3,#question4,#question5{
+    border-top: 1px solid #ebeaeb;
+    font-size: 1.125rem;
+}
+.accordion-item{
+    
+    cursor: pointer;
+    color: black;
+    text-align: left;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+    padding-right: 3rem;
+    width: 100%;
+    font-weight: bold;
+}
+.faq{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.fbox{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #611f69;
+    height: 200px;
+    clip-path: ellipse(75% 100% at center top);
+}
+.choose{
+    color: white;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.fbox button{
+    padding: 5px;
+    border: 2px white;
+}
+
+.fbox #try_slack{
+    color: #611f69;
+    padding: 14px 28px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.fbox #talk_to_sales2{
+    color: white;
+    padding: 14px 28px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #611f69;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.footer p{
+    padding: 10px;
+    font-size: small;
+}
+.why,.product,.Pricing,.Resources,.company{
+    display: flex;
+    flex-direction: column;
+}
+#heading{
+    font-weight: bold;
+    font-size: medium;
+}
