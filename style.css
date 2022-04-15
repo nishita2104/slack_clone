@@ -30,6 +30,7 @@
     justify-content: space-between;
     background-color: white;
     border-radius: 30px;
+    z-index: 3;
 }
 
 .list{
@@ -235,6 +236,7 @@ h1{
     height: fit-content;
     justify-content: space-between;
 }
+
 .cycle_image{
     max-width: 50%;
     /*padding-top: 2rem;
@@ -244,33 +246,39 @@ h1{
     width: 610px;
     height: 325px;
 }
+
 @media screen and (min-width: 64rem){
     .write_up{
         font-size: 1.75rem;
     }
 }
+
 .quote{
     margin: 40px;
     padding-top: 2rem;
 }
+
 .quote p{
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     line-height: 1.3571;
-    letter-spacing: -.3px;
-    
+    letter-spacing: -.3px;    
     margin-bottom: 1.5rem;
 }
+
 .write_up{
     font-style: italic;
     font-size: 1.5rem;
     font-weight: 100;
 }
+
 .quote img{
     margin-bottom: 20px;
 }
+
 .name{
     font-size: 1rem;   
 }
+
 section{
     width: 100%;
     background-color: white;
@@ -278,6 +286,7 @@ section{
     align-items: center;
     justify-content: center;
 }
+
 .container{
     width: 100%;
     max-width: 80rem;
@@ -285,10 +294,12 @@ section{
     padding: 0 1.5rem;
     
 }
+
 #question1,#question2,#question3,#question4,#question5{
     border-top: 1px solid #ebeaeb;
     font-size: 1.125rem;
 }
+
 .accordion-item{
     
     cursor: pointer;
@@ -313,7 +324,7 @@ section{
     justify-content: center;
     align-items: center;
     background-color: #611f69;
-    height: 200px;
+    height: 250px;
     clip-path: ellipse(75% 100% at center top);
 }
 .choose{
@@ -322,6 +333,7 @@ section{
     margin-bottom: 2rem;
     font-weight: bold;
 }
+
 .fbox button{
     padding: 5px;
     border: 2px white;
@@ -337,6 +349,7 @@ section{
     font-size: 15px;
     font-weight: 600;
 }
+
 .fbox #talk_to_sales2{
     color: white;
     padding: 14px 28px;
@@ -347,19 +360,23 @@ section{
     font-size: 15px;
     font-weight: 600;
 }
+
 .footer{
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
+
 .footer p{
     padding: 10px;
     font-size: small;
 }
+
 .why,.product,.Pricing,.Resources,.company{
     display: flex;
     flex-direction: column;
 }
+
 #heading{
     font-weight: bold;
     font-size: medium;
