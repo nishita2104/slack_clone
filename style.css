@@ -4,7 +4,7 @@
     box-sizing: inherit;
     font-family: Helvetica,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
-@media screen and (min-width: 48rem){
+/*@media screen and (min-width: 48rem){
     .content{
         padding: 0 10vw;
         padding-top: 0px;
@@ -12,6 +12,10 @@
         padding-bottom: 0px;
         padding-left: 10vw;
     }
+}*/
+.part1{
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 .logo{
     display: flex;
@@ -131,21 +135,32 @@ h1{
 .work_easily{
     background-color: #f4ede4;
     margin-top: 70px;
+    padding: 0 4vw;
+
 }
 .headingandimg{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;  
     margin-bottom: 3.5rem; 
+    z-index: 1;
 }
 
 .features{
     padding-top: 4rem;
+    display: flex;
+    z-index: 2;
 }
 
 @media screen and (min-width: 48rem){
 .headingandimg {
     padding: 0 4vw;
 }}
+
+.writeup{
+    display: flex;
+    flex-direction: column;
+}
 
 .features h2{
     font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
@@ -154,7 +169,9 @@ h1{
     letter-spacing: -.3px;
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    
 }
+
 .features p{
     margin-bottom: 1rem;
     font-weight: 400;
@@ -162,10 +179,14 @@ h1{
     letter-spacing: normal;
     font-size: 1.1rem;
     padding-right: 5vw;
+    word-wrap: normal;
+
+    
 }
 .jigsaw{
    margin-top: -63px;
-   position: relative;
+   position: absolute;
+   right: -1rem;
 }
 
 .grid{
@@ -173,6 +194,9 @@ h1{
     justify-content: space-around;
     height: 45vh;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 3.5rem;
     
 }
 .one,.two,.four{
@@ -235,6 +259,14 @@ h1{
     display: flex;
     height: fit-content;
     justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-top: 24px;
+}
+.imgandquote{
+    display: flex;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
 .cycle_image{
@@ -244,7 +276,7 @@ h1{
     padding-right: 2rem;*/
     margin: 40px;
     width: 610px;
-    height: 325px;
+    height: 321px;
 }
 
 @media screen and (min-width: 64rem){
@@ -292,6 +324,48 @@ section{
     max-width: 80rem;
     margin:0 auto;
     padding: 0 1.5rem;
+    
+}
+
+.explore{
+    margin-left: 190px;
+    margin-right: 190px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.heading_explore{
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    align-self: center;
+}
+.explore_flex{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+
+.image_flex{
+    box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+    padding: 8px;
+    width: 260px;
+}
+.first_heading{
+    margin-top: 8px;
+}
+.image_flex h3{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.learn_more{
+    margin-top: 184px;
+    color: #1264a3;
     
 }
 
